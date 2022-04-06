@@ -19,7 +19,7 @@ module.exports = {
       {
         tabWidth: 2,
         singleQuote: true,
-        semi: false,
+        semi: true,
         trailingComma: 'es5',
         arrowParens: 'always',
         endOfLine: 'auto',
@@ -43,7 +43,7 @@ module.exports = {
         allowUsingIterationVar: true,
       },
     ],
-    '@typescript-eslint/no-explicit-any': ['error'], //禁止使用any
+    '@typescript-eslint/no-explicit-any': ['warn'], //禁止使用any
     eqeqeq: 2, //必须使用全等
     'max-lines': ['error', 500], //限制行数 请勿修改 请优化你的代码
     complexity: ['error', 5], // 限制复杂度

@@ -7,16 +7,6 @@
 
 <script lang="ts" setup>
 import Taro from '@tarojs/taro'
-const goRequest = () => {
-  Taro.navigateTo({ url: '/pages/featureA/request/index' })
-}
-const goCss = () => {
-  Taro.navigateTo({ url: '/pages/featureA/css/index' })
-}
-const goPinia = () => {
-  Taro.navigateTo({ url: '/pages/featureA/index/index' })
-}
-const goNutUi = () => {
-  Taro.navigateTo({ url: '/pages/featureA/nutui/index' })
-}
+import { ref } from 'vue'
+
 </script>

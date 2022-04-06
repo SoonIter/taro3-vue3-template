@@ -1,7 +1,7 @@
-import '@nutui/nutui-taro/dist/style.css'
-import { Icon, Button } from '@nutui/nutui-taro'
-import { App } from 'vue'
+import { App } from 'vue';
+import { Button, Input } from '@nutui/nutui-taro';
+
 const setNutUi = (app: App) => {
-  app.use(Icon).use(Button)
-}
-export default setNutUi
+  app.use(Button).use(Input);
+};
+export default setNutUi;
